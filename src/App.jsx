@@ -8,7 +8,7 @@ import ProtectedRoute from "./components/home/ProtectedRoute/ProtectedRoute";
 export const root = createBrowserRouter([
   {
     path: "/",
-    element:  <ProtectedRoute><Home /></ProtectedRoute>,
+    element: <Home />
   },
   {
     path: "/register",
